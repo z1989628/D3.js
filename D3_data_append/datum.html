@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js"   charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+
+
+
+<script type="text/javascript">
+
+
+var dataset=[10,20,30,40,50];
+
+
+var body=d3.select("body");
+
+body.selectAll("p").data(dataset).enter().append("p").text(function(d,i){return d+":"+i;});
+
+
+
+
+
+</script>
+  </body>
+</html>
